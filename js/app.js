@@ -28,7 +28,7 @@ function submitForm (event){
         messageError('verifique password');
         console.log("password diferente");
     }else{
-        //como no hay error en el formulario muestro loading y olculto save
+        //como no hay error en el formulario muestro loading y oculto
         let buttonLoading = document.querySelector(".loading");
         buttonLoading.classList.add("show-element");
         let buttonSave = document.querySelector(".save");
